@@ -1,0 +1,425 @@
+body{
+    direction: rtl;
+    background-color: rgba(240,253,250,.6);
+    font-family: Somarsans,sans-serif;
+}
+                                        /*nav bar*/
+.content a{
+    color: black;
+    text-decoration: none;
+}
+
+.content li{
+    list-style: none;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: Somarsans,sans-serif;
+    display: inline;
+    position: relative;
+    padding-right: 35px;
+    padding-top: 7px;
+    color: black;
+}
+.content li :hover{
+    color:#0d9488;
+}
+
+.navbar{
+    padding-top: 10px;
+    display: flex;
+    position: relative;
+}
+
+.button-nav{
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+}
+
+
+.b1{
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(240,253,250,.6);
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+    padding: 10px 15px ;
+}
+
+.b1:hover{
+    color:white;
+    background-color: #0d9488;
+    padding: 10px 15px;
+   
+}
+
+.b2{
+    color: white;
+    border: black 2px;
+    background-color: #0d9488;
+    font-size: medium;
+    font-weight: bold;
+    font-weight:  Somarsans,sans-serif;
+    padding: 10px 20px;
+    border-radius: 50px;
+ 
+}
+.lang{
+    padding-right: 50px; 
+    font-size: 18px;
+    
+ }
+#lanG{
+    margin-top: 7px;
+    height: 50px;
+    width: 130px;
+    color: black;
+    border: none;
+    background-color: rgba(240,253,250,.6);
+    text-align:right;
+    padding-left: 45px;
+    font-weight: bold;
+    font-size: medium;
+
+} 
+
+                                        /*header*/
+header h6{
+    text-align: center;/*to make the paragraph at the center*/
+    font-family: Somarsans,sans-serif;
+    font-size: 67px;
+    font-weight: 800px;
+    word-spacing: -13px;/*less space between the words*/
+    font-family: Somarsans,sans-serif;
+    margin-bottom: -50px;
+    background:linear-gradient(100deg, black, #5dd6ca);
+    background-clip: text;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.head-p{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    text-align: center;
+    color:#64748b;
+    font-size: 25px;
+    font-weight: 500px;  
+}
+header i{
+    color: #4F3C7B;
+}
+
+/*for the button design in the header*/
+header a{
+    padding-top: 50px;
+}
+.head-btn{
+    text-align: center;
+    text-decoration: none;
+    border: #0d9488 1px solid;
+    border-radius: 50px;
+    background-color: #0d9488;
+    padding: 20px 10px;
+    color: white;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 250px;
+    font-size: large;
+    font-weight: bolder;
+}
+/*for the arrow, to be white*/
+.head-btn i{
+    color: white;
+}
+/*for the line written after the button in the header*/
+header p{
+    text-align: center;
+}
+
+
+                                       /*section one*/
+.sec-one{
+    padding-top: 60px;
+}
+
+#middle{
+    width: 880px;
+    display: block;/*to make the middle image in the middle of the page*/
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+#right{
+    width: auto;
+    height: 390px;
+    left: 340px;
+    position: absolute;
+    top: 962px;
+    right: 158px;
+    border-radius: 7%;
+}
+#left{
+    width: auto;
+    height: 470px;
+    padding-right: 350px;
+    position: absolute;
+    top: 849px;
+    right: 750px;
+    display: flex;
+    border-radius: 7%;
+}
+#logo-r{
+    padding-left: 350px;
+    right: 155px;
+    display: flex;
+    position: absolute;
+    top: 609px;
+    z-index: -1; /*behind the middle image*/
+}
+#logo-l{
+    transform: rotate(50deg);
+    padding-right: 350px;
+    right: 757px;
+    display: flex;
+    position: absolute;
+    top: 700px;
+    z-index: -1;/*behind the middle image*/
+}
+
+                                      /*section 2*/
+.sec-two{
+    padding-top: 40px;
+    display: flex;
+
+}
+/*for the right div*/
+.droite{
+    margin-right: 150px;
+    margin-left: 70px;
+}
+.droite h4{
+    font-size: 50px;
+    font-weight: 600px;
+    word-spacing: -10px;
+    background:linear-gradient(100deg, black, #0d9488);
+    background-clip: text;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.droite p{
+    margin-top: -35px;
+    font-size: 22px;
+    word-spacing: -5px;
+    color:#64748b;
+}
+/*for the left div*/
+.gauche{
+    padding-top: 15px;
+}
+.gauche h2{
+    font-size: 40px;
+}
+.gauche .four{
+    font-size: 75px;
+}
+#stars{    /*image of the stars below the rate */
+    height: 32px;
+    width: auto;
+    margin-top: -22px;
+}
+/*paragraph below the rates */
+.gauche .rate-l{
+    font-size: 17px;
+    color: #64748b;
+    font-family: Somarsans,sans-serif;
+    word-spacing: -2px;
+
+}
+.gauche .rate-left{
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    word-spacing: -2px;
+    font-family: Somarsans,sans-serif;
+}
+/*last line of mini photos*/
+#pics{
+    padding-top: 5px;
+   width: 450px;
+}
+
+
+                                        /*section 3*/
+.sec-three{
+    padding-top: 50px;
+    padding-right: 150px;
+}
+.sec-three h1{
+    font-size: 60px;
+    font-weight: 600px;
+    word-spacing: -10px;
+    background:linear-gradient(100deg, black, #0d9488);
+    background-clip: text;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.sec-three p{
+    font-size: 20px;
+    color: #64748b;
+    word-spacing: -3px;
+}
+
+
+                                         /*section 4*/
+.sec-four{
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #dbefea;
+    height: 500px;
+    width: 1300px;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 100px;
+
+}
+.l-img{
+    display: flex;
+    position: absolute;
+}
+#I{
+    margin-right:40px;
+    margin-top: 30px;
+    height: 440px;
+    border-radius: 10px;
+    z-index: 0px;
+}
+#L{
+    height: 310px;
+    border-radius: 10px;
+    z-index: 2;
+    margin-top: 159px;
+    margin-right: 498px;
+    display: flex;
+    position: absolute;
+}
+.sh{
+    margin-top: 32px;
+    margin-right: 780px;
+}
+.sh h1{
+    font-size: 50px;
+    font-weight: bolder;
+    word-spacing: -2px;
+
+}
+.sh p {
+   color: #64748b;  
+   word-spacing: -3px; 
+   margin-bottom: 40px;
+}
+.btnn a{
+    background-color: #0d9488;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: larger;
+    font-weight: bold;
+    word-spacing: -2px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 30px;
+}
+.btnn p{
+    margin-top: 25px;
+}
+
+
+                                      /*footer*/
+
+
+.LAST{
+    background-color: #0f172a;
+    color: white;
+    padding-top: 100px;
+    padding-right: 120px;
+    padding-bottom: 100px;
+}
+.ll p{
+    font-family: Somarsans,sans-serif;
+    font-size: larger;
+    font-weight: 500px;
+}
+#logo_down{
+    padding-top: 35px;
+    height: 50px;
+    width: auto;
+}
+footer{
+color: white;
+overflow: hidden;   /*this line solved the extra white space after the footer*/
+background-color: #0f172a;
+direction: rtl;/*to make it with the language*/
+padding: 300px 0px 0px ;
+display: flex;/*to make the lists beside each other*/
+font-family: Somarsans,sans-serif;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer li{
+    list-style: none;
+}
+.one {                     /*for the first list*/
+    display: flex;
+}
+.un .deux .trois{
+    padding-right: 80px;
+}
+
+footer .footer-head1 .footer-head2 .footer-head3{
+    font-weight: 500px;
+    font-size:x-large;
+    font-family: Somarsans,sans-serif;
+}
+footer li{
+    padding-top: 8px;
+    padding-right: 30px;
+    font-size: larger;
+    color: white;
+}
+footer li :hover{
+    color: #0d9488;
+}
+
+footer h4{
+    font-size: larger;
+    font-weight: 500px;
+    font-family: Somarsans,sans-serif;
+    padding-right: 30px;
+}
+footer .un1{
+    padding-top: 40px;
+}
+footer .three {
+    margin-right: 160px;
+}
+.three #mm{
+    margin-top: 26px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.mail{
+    display: flex;
+    background-color: #334d74;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.mail:hover{
+    background-color: #64748b;
+}
